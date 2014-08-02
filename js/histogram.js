@@ -2,9 +2,9 @@
 function draw_hist(ident, vals) {
 
     // A formatter for counts.
-    var formatCount = d3.format(",.0f");
+    var formatCount = d3.format(",0d");
 
-    var margin = {top: 10, right: 30, bottom: 30, left: 30},
+    var margin = {top: 10, right: 30, bottom: 30, left: 40},
         width = 200 - margin.left - margin.right,
         height = 100 - margin.top - margin.bottom;
 
@@ -18,12 +18,12 @@ function draw_hist(ident, vals) {
         (vals);
 
     var y = d3.scale.linear()
-        .domain([0, d3.max(data, function(d) { return d.y; })])
+        .domain([0, d3.max(data, function(d) { return d.y + Math.sqrt(d.y); })])
         .range([height, 0]);
 
     var xAxis = d3.svg.axis()
         .scale(x)
-        .ticks(5)
+        .ticks(3)
         .tickFormat(function(d) { return '';})
         .orient("bottom");
 
@@ -90,30 +90,46 @@ function draw_hist(ident, vals) {
         .attr("transform", "translate(0," + (height ) + ")")
         .call(xAxis);
 
+    svg.append("text")
+        .attr("class", "x label")
+        .attr("text-anchor", "end")
+        .attr("x", width)
+        .attr("y", height + 20)
+        .text("m (GeV)");
+
     svg.append("g")
         .attr("class", "y axis")
         .attr("transform", "translate(0, 0)")
         .call(yAxis);
+
+    svg.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "end")
+        .attr("y", -20)
+        .attr("dy", "-1em")
+        .attr("dx", "-0.5em")
+        .attr("transform", "rotate(-90)")
+        .text("events");
 
     return svg;
 }
 
 function Histogram(ident) {
     // TODO: Allow for arbitrary numbers of events
-    this.values = d3.range(1000).map(d3.random.normal(0, 1));
-    this.counter = 0;
+    this.values = [];
     draw_hist(ident, []);
 
     this.add_events = function(num) {
+        var new_vals = d3.range(num).map(d3.random.normal(0, 1));
+        this.values = $.merge(this.values, new_vals);
         d3.select(ident).select("svg").remove();
-        draw_hist(ident, this.values.slice(0, this.counter+num));
-        this.counter += num;
+        draw_hist(ident, this.values);
     }
 
     this.clear = function() {
         d3.select(ident).select("svg").remove();
+        this.values = [];
         draw_hist(ident, []);
-        this.counter = 0;
     }
 }
 

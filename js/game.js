@@ -12,9 +12,11 @@
     return res;
   }
 
-
   var lab = {
     name: 'My Awesome Lab',
+    detector: {
+      rate: 1
+    },
     data: 0,
     reputation: 0,
     money: 0,
@@ -84,11 +86,59 @@
     };
   });
 
+
   var achievements = loadJsonFile('json/achievements.json');
   workers.map(function (achievement) {
     achievement.achieved = 0;
     achievement.is_visible = function () {
       return this.achieved;
+    };
+  });
+
+  var upgrades = loadJsonFile('json/upgrades.json');
+  upgrades.map(function (upgrade) {
+    upgrade.getReceiver = function() {
+      if (this.type === "detector") {
+        return lab.detector;
+      } else {
+        var context;
+        if (this.type === "research") { context = research; }
+        else if (this.type === "hr") { context = workers; }
+        else { return null; }
+        for (var i = 0; i < context.length; i++) {
+          if (context[i].name === this.receiver) {
+            return context[i];
+          }
+        }
+        return null;
+      }
+    };
+    upgrade.hasReceiver = function () {
+      if (this.type === "detector") {
+        return true;
+      }
+      var rec = this.getReceiver();
+      if (this.type === "research") {
+        return rec.level > 0;
+      } else if (this.type === "hr") {
+        return rec.hired > 0;
+      }
+      return false;
+    };
+    upgrade.is_visible = function () {
+      return !this.used && this.hasReceiver() && lab.money >= this.cost * .9;
+    };
+    upgrade.is_available = function () {
+      return !this.used && this.hasReceiver() && lab.money >= this.cost;
+    };
+    upgrade.buy = function () {
+      if (!this.used && lab.buy(this.cost)) {
+        this.used = true;
+        var rec = this.getReceiver();
+        if (rec) {
+          rec[this.property] = rec[this.property] * this.factor + this.constant;
+        }
+      }
     };
   });
 
@@ -104,8 +154,7 @@
 
   app.controller('DetectorController', function () {
     this.click = function () {
-      lab.acquire(1);
-
+      lab.acquire(lab.detector.rate);
       detector.addEvent();
     };
   });
@@ -133,6 +182,11 @@
   app.controller('AchievementController',function(){
     this.achievements = achievements;
   });
+
+  app.controller('UpgradesController', function () {
+    this.upgrades = upgrades;
+  });
+
 })();
 
 
