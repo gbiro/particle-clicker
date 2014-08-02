@@ -17,6 +17,7 @@
             <p class="navbar-text">Data: <strong>{{ lc.lab.data }}</strong></p>
             <p class="navbar-text"><span data-toggle="tooltip" data-placement="left" title="Tooltip on left">Reputation</span>: <strong>{{ lc.lab.reputation }}</strong></p>
             <p class="navbar-text">Money: <strong>{{ lc.lab.money | currency }}</strong></p>
+            <a href="#contact" data-toggle="modal">test achievements</a>
             <p class="navbar-text navbar-right"><a href="https://github.com/ibab/particle-clicker/"><img src="assets/github.png" alt="GitHub" width="16"></a></p> 
           </div>
         </nav>
@@ -69,6 +70,22 @@
             </div>
           </li>
         </ul>
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p>Yo! New Achievement</p>
+          </div>
+          <div class="modal-body">
+            your achievement
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-default" data-dismiss="modal">Yeah!</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

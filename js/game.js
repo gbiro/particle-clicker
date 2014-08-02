@@ -84,6 +84,13 @@
     };
   });
 
+  var achievements = loadJsonFile('json/achievements.json');
+  workers.map(function (achievement) {
+    achievement.achieved = 0;
+    achievement.is_visible = function () {
+      return this.achieved;
+    };
+  });
 
   var app = angular.module('particleClicker', []);
 
@@ -121,6 +128,10 @@
 
   app.controller('HRController', function () {
     this.workers = workers;
+  });
+
+  app.controller('AchievementController',function(){
+    this.achievements = achievements;
   });
 })();
 
