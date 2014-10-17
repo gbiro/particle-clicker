@@ -1,0 +1,292 @@
+[
+  {
+    "description": "${name} felfedezés!",
+    "icon": "glyphicon-cog",
+    "type": "research",
+    "target": "research",
+    "threshold": 1
+  },
+  {
+    "description": "${name} felfedezés elérte az 5. szintet!",
+    "icon": "glyphicon-cog",
+    "type": "research",
+    "target": "research",
+    "threshold": 5
+  },
+  {
+    "description": "${name} felfedezés elérte a 25. szintet!",
+    "icon": "glyphicon-cog",
+    "type": "research",
+    "target": "research",
+    "threshold": 25
+  },
+  {
+    "description": "${name} felfedezés elérte az 50. szintet!",
+    "icon": "glyphicon-cog",
+    "type": "research",
+    "target": "research",
+    "threshold": 50
+  },
+  {
+    "description": "${name} felfedezés elérte a 100. szintet!",
+    "icon": "glyphicon-cog",
+    "type": "research",
+    "target": "research",
+    "threshold": 100
+  },
+
+
+  {
+    "description": "Első ${name} alkalmazva!",
+    "icon": "glyphicon-user",
+    "type": "workers",
+    "target": "workers",
+    "threshold": 1
+  },
+  {
+    "description": "5 ${name} dolgozik Neked!",
+    "icon": "glyphicon-user",
+    "type": "workers",
+    "target": "workers",
+    "threshold": 5
+  },
+  {
+    "description": "25 ${name} dolgozik Neked!",
+    "icon": "glyphicon-user",
+    "type": "workers",
+    "target": "workers",
+    "threshold": 25
+  },
+  {
+    "description": "50 ${name} dolgozik Neked!",
+    "icon": "glyphicon-user",
+    "type": "workers",
+    "target": "workers",
+    "threshold": 50
+  },
+  {
+    "description": "100 ${name} dolgozik Neked!",
+    "icon": "glyphicon-user",
+    "type": "workers",
+    "target": "workers",
+    "threshold": 100
+  },
+
+
+  {
+    "description": "Az első klikkelésed!",
+    "icon": "glyphicon-hand-up",
+    "type": "count",
+    "target": "clicks",
+    "threshold": 1
+  },
+  {
+    "description": "100 klikkelés!",
+    "icon": "glyphicon-hand-up",
+    "type": "count",
+    "target": "clicks",
+    "threshold": 100
+  },
+  {
+    "description": "1000 klikkelés!",
+    "icon": "glyphicon-hand-up",
+    "type": "count",
+    "target": "clicks",
+    "threshold": 1000
+  },
+  {
+    "description": "10.0k klikkelés!",
+    "icon": "glyphicon-hand-up",
+    "type": "count",
+    "target": "clicks",
+    "threshold": 10000
+  },
+  {
+    "description": "100.0k klikkelés!",
+    "icon": "glyphicon-hand-up",
+    "type": "count",
+    "target": "clicks",
+    "threshold": 100000
+  },
+  {
+    "description": "1.0M klikkelés!",
+    "icon": "glyphicon-hand-up",
+    "type": "count",
+    "target": "clicks",
+    "threshold": 1000000
+  },
+
+  {
+    "description": "100 gyűjtött adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "data",
+    "threshold": 100
+  },
+  {
+    "description": "10.0k gyűjtött adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "data",
+    "threshold": 10000
+  },
+  {
+    "description": "1.0M gyűjtött adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "data",
+    "threshold": 1000000
+  },
+  {
+    "description": "100.0M gyűjtött adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "data",
+    "threshold": 100000000
+  },
+  {
+    "description": "10.0B gyűjtött adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "data",
+    "threshold": 10000000000
+  },
+
+  {
+    "description": "100 JTN gyűjtött támogatás!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "money",
+    "threshold": 100
+  },
+  {
+    "description": "10.0k JTN gyűjtött támogatás!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "money",
+    "threshold": 10000
+  },
+  {
+    "description": "1.0M JTN gyűjtött támogatás!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "money",
+    "threshold": 1000000
+  },
+  {
+    "description": "100.0M JTN gyűjtött támogatás!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "money",
+    "threshold": 100000000
+  },
+  {
+    "description": "10.0B JTN gyűjtött támogatás!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "money",
+    "threshold": 10000000000
+  },
+
+
+  {
+    "description": "100 felhasznált adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "dataSpent",
+    "threshold": 100
+  },
+  {
+    "description": "10.0k felhasznált adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "dataSpent",
+    "threshold": 10000
+  },
+  {
+    "description": "1.0M felhasznált adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "dataSpent",
+    "threshold": 1000000
+  },
+  {
+    "description": "100.0M felhasznált adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "dataSpent",
+    "threshold": 100000000
+  },
+  {
+    "description": "10.0B felhasznált adat!",
+    "icon": "glyphicon-hdd",
+    "type": "count",
+    "target": "dataSpent",
+    "threshold": 10000000000
+  },
+
+  {
+    "description": "100 JTN támogatás elköltve a HE osztályban!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyWorkers",
+    "threshold": 100
+  },
+  {
+    "description": "10.0k JTN támogatás elköltve a HE osztályban!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyWorkers",
+    "threshold": 10000
+  },
+  {
+    "description": "1.0M JTN támogatás elköltve a HE osztályban!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyWorkers",
+    "threshold": 1000000
+  },
+  {
+    "description": "100.0M JTN támogatás elköltve a HE osztályban!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyWorkers",
+    "threshold": 100000000
+  },
+  {
+    "description": "10.0B JTN támogatás elköltve a HE osztályban!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyWorkers",
+    "threshold": 10000000000
+  },
+
+  {
+    "description": "100 JTN támogatás elköltve fejlesztésekre!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyUpgrades",
+    "threshold": 100
+  },
+  {
+    "description": "10.0k JTN támogatás elköltve fejlesztésekre!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyUpgrades",
+    "threshold": 10000
+  },
+  {
+    "description": "1.0M JTN támogatás elköltve fejlesztésekre!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyUpgrades",
+    "threshold": 1000000
+  },
+  {
+    "description": "100.0M JTN támogatás elköltve fejlesztésekre!",
+    "icon": "glyphicon-usd",
+    "type": "count",
+    "target": "moneyUpgrades",
+    "threshold": 100000000
+  }
+]

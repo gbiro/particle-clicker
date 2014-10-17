@@ -1,0 +1,498 @@
+[
+  {
+    "name": "Ingyen sör",
+    "description": "Könnyebb a munka, ha a dolgozó jókedvű. A PhD Diákjaid +3 adatot termelnek.",
+    "cost": 1000,
+    "used": false,
+    "type": "hr",
+    "receiver": "PhD Diákok",
+    "property": "rate",
+    "factor": 1,
+    "constant": 3
+  },
+  {
+    "name": "Extra kávé",
+    "description": "Az alvás a gyengék kávéja. A PhD Diákjaid 1.5-ször több adatot termelnek.",
+    "cost": 3000,
+    "used": false,
+    "type": "hr",
+    "receiver": "PhD Diákok",
+    "property": "rate",
+    "factor": 1.5,
+    "constant": 0
+  },
+  {
+    "name": "Motiváció",
+    "description": "Mindig vannak, tudod... szorgalmasabb diákok... A PhD Diákjaid 2.2-szer több adatot termelnek.",
+    "cost": 50000,
+    "used": false,
+    "type": "hr",
+    "receiver": "PhD Diákok",
+    "property": "rate",
+    "factor": 2.2,
+    "constant": 0
+  },
+  {
+    "name": "Saját íróasztal",
+    "description": "Micsoda kényelem...! A Posztdoktorjaid +4 adatot termelnek.",
+    "cost": 5000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Posztdoktorok",
+    "property": "rate",
+    "factor": 1,
+    "constant": 4
+  },
+  {
+    "name": "Külföldi ösztöndíj",
+    "description": "Tapasztalatszerzés a világ minden tájáról. A Posztdoktorjaid 1.5-ször több adatot termelnek.",
+    "cost": 20000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Posztdoktorok",
+    "property": "rate",
+    "factor": 1.5,
+    "constant": 0
+  },
+
+  {
+    "name": "Munkamegosztás",
+    "description": "A Posztdoktorok közötti csapatmunka egy nagyszerű találmány. Innentől sokkal több adatot termelnek.",
+    "cost": 400000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Posztdoktorok",
+    "property": "rate",
+    "factor": 1.5,
+    "constant": 12
+  },
+
+  {
+    "name": "Nagyobb költségvetés",
+    "description": "A Tudományos Munkatársaid egy kis extra pénzt kapnak. Innentől +25 adatot termelnek.",
+    "cost": 200000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Tudományos Munkatárs",
+    "property": "rate",
+    "factor": 1,
+    "constant": 25
+  },
+
+  {
+    "name": "Új kütyük",
+    "description": "A Tudományos Munkatársaid új felszerelést kapnak. Innentől 1.2-szer több adatot termelnek.",
+    "cost": 800000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Tudományos Munkatárs",
+    "property": "rate",
+    "factor": 1.2,
+    "constant": 0
+  },
+
+  {
+    "name": "Több PhD Diák",
+    "description": "A tiszteletreméltó Professzoraid kapnak néhány diákot segítségül. Innentől +75 adatot termelnek.",
+    "cost": 20000000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Tenure Professzor",
+    "property": "rate",
+    "factor": 1,
+    "constant": 75
+  },
+
+  {
+    "name": "2. Nobel-díj",
+    "description": "A leghatalmasabb elméid már-már félistenek... A Nobel-díj Nyerteseid 1.7-szer több adatot termelnek.",
+    "cost": 100000000,
+    "used": false,
+    "type": "hr",
+    "receiver": "Nobel-díj nyertesek",
+    "property": "rate",
+    "factor": 1.7,
+    "constant": 0
+  },
+
+  {
+    "name": "Gyorsító fejlesztés",
+    "description": "Megnövekedett luminozitás - klikkeléseiddel 3-szor több adatot kapsz.",
+    "cost": 1000,
+    "used": false,
+    "type": "detector",
+    "receiver": "",
+    "property": "rate",
+    "factor": 3,
+    "constant": 0
+  },
+
+  {
+    "name": "Gyorsító fejlesztés 2",
+    "description": "Megnövekedett luminozitás - klikkeléseiddel 3-szor több adatot kapsz.",
+    "cost": 10000,
+    "used": false,
+    "type": "detector",
+    "receiver": "",
+    "property": "rate",
+    "factor": 3,
+    "constant": 0
+  },
+
+  {
+    "name": "Gyorsító fejlesztés 3",
+    "description": "Megnövekedett luminozitás - klikkeléseiddel 3-szor több adatot kapsz.",
+    "cost": 100000,
+    "used": false,
+    "type": "detector",
+    "receiver": "",
+    "property": "rate",
+    "factor": 3,
+    "constant": 0
+  },
+
+  {
+    "name": "Detektor fejlesztés",
+    "description": "A lenyűgöző detektoroddal megnövelt hatásfokkal tudsz részecskéket detektálni - klikkeléseiddel +4 adatot kapsz.",
+    "cost": 500,
+    "used": false,
+    "type": "detector",
+    "receiver": "detector",
+    "property": "rate",
+    "factor": 1,
+    "constant": 4
+  },
+
+  {
+    "name": "Detektor fejlesztés 2",
+    "description": "A lenyűgöző detektoroddal megnövelt hatásfokkal tudsz részecskéket detektálni - klikkeléseiddel +12 adatot kapsz.",
+    "cost": 5000,
+    "used": false,
+    "type": "detector",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1,
+    "constant": 12
+  },
+
+  {
+    "name": "Detektor fejlesztés 3",
+    "description": "A lenyűgöző detektoroddal megnövelt hatásfokkal tudsz részecskéket detektálni - klikkeléseiddel +42 adatot kapsz.",
+    "cost": 50000,
+    "used": false,
+    "type": "detector",
+    "receiver": "detector",
+    "property": "rate",
+    "factor": 1,
+    "constant": 42
+  },
+
+  {
+    "name": "A tudomány klassz!! 1",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 700,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.2,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 2",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 50000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.18,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 3",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 200000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.16,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 4",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 800000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.14,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 5",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 1200000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.12,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 6",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 1800000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.12,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 7",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 3000000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.12,
+    "constant": 0
+  },
+
+  {
+    "name": "A tudomány klassz!! 8",
+    "description": "A tudományod egyre népszerűbb - 1.1-szer több támogatást kapsz a reputációdért.",
+    "cost": 10000000,
+    "used": false,
+    "type": "reputation",
+    "receiver": "",
+    "property": "rate",
+    "factor": 1.12,
+    "constant": 0
+  },
+
+  {
+    "name": "PR - a CP sértés népszerűsítése 1",
+    "description": "A mainstream sajtó a CP sértést érintő kutatásodról ír. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 5000,
+    "used": false,
+    "type": "research",
+    "receiver": "CP-sértés",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a CP sértés népszerűsítése 2",
+    "description": "A mainstream sajtó a CP sértést érintő kutatásodról ír. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 100000,
+    "used": false,
+    "type": "research",
+    "receiver": "CP-sértés",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a J/ψ népszerűsítése 1",
+    "description": "A J/ψ-t érintő kutatásodról egy műsort vetítenek a nemzeti csatornákon. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 40000,
+    "used": false,
+    "type": "research",
+    "receiver": "J/ψ",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a J/ψ népszerűsítése 2",
+    "description": "A J/ψ-t érintő kutatásodról egy műsort vetítenek a nemzeti csatornákon. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 130000,
+    "used": false,
+    "type": "research",
+    "receiver": "J/ψ",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a τ népszerűsítése 1",
+    "description": "Egy ismeretterjesztő műsorban beszélsz a τ leptonról. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 100000,
+    "used": false,
+    "type": "research",
+    "receiver": "τ lepton",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a τ népszerűsítése 2",
+    "description": "Egy ismeretterjesztő műsorban beszélsz a τ leptonról. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 250000,
+    "used": false,
+    "type": "research",
+    "receiver": "τ lepton",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a b kvark népszerűsítése 1",
+    "description": "Felfedezted a legeslegszebb kvarokt! A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 100000,
+    "used": false,
+    "type": "research",
+    "receiver": "Bottom kvark",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a b kvark népszerűsítése 2",
+    "description": "Felfedezted a legeslegszebb kvarokt! A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 500000,
+    "used": false,
+    "type": "research",
+    "receiver": "Bottom kvark",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a W és Z bozonok népszerűsítése 1",
+    "description": "A Standard Model eme nagyon fontos részéről tartasz előadásokat. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 250000,
+    "used": false,
+    "type": "research",
+    "receiver": "W- és Z bozon",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a W és Z bozonok népszerűsítése 2",
+    "description": "A Standard Model eme nagyon fontos részéről tartasz előadásokat. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 1000000,
+    "used": false,
+    "type": "research",
+    "receiver": "W- és Z bozon",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a top kvark népszerűsítése 1",
+    "description": "A karriered csúcsán állsz! A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 5000000,
+    "used": false,
+    "type": "research",
+    "receiver": "Top kvark",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+  {
+    "name": "PR - a top kvark népszerűsítése 2",
+    "description": "A karriered csúcsán állsz! A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 7500000,
+    "used": false,
+    "type": "research",
+    "receiver": "Top kvark",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - az antihidrogén népszerűsítése 1",
+    "description": "Hollywoodban filmet csinálnak az antianyagról. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 22500000,
+    "used": false,
+    "type": "research",
+    "receiver": "Antihidrogén",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - az antihidrogén népszerűsítése 2",
+    "description": "Hollywoodban filmet csinálnak az antianyagról. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 40000000,
+    "used": false,
+    "type": "research",
+    "receiver": "Antihidrogén",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a B oszcillációk népszerűsítése 1",
+    "description": "A lányod a házifeladatában a B oszcillációkat érintő kutatásodról ír. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 75000000,
+    "used": false,
+    "type": "research",
+    "receiver": "B oszcillációk",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+
+  {
+    "name": "PR - a B oszcillációk népszerűsítése 2",
+    "description": "A lányod a házifeladatában a B oszcillációkat érintő kutatásodról ír. A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 90000000,
+    "used": false,
+    "type": "research",
+    "receiver": "B oszcillációk",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+  {
+    "name": "PR - a Higgs bozon népszerűsítése 1",
+    "description": "Megtaláltad a Standard Model utolsó hiányzó láncszemét! A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 90000000,
+    "used": false,
+    "type": "research",
+    "receiver": "Higgs-bozon",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  },
+  {
+    "name": "PR - a Higgs bozon népszerűsítése 2",
+    "description": "Megtaláltad a Standard Model utolsó hiányzó láncszemét! A jövőbeni kutatásaidért ezen a területen 1.2-szer több reputációt kapsz.",
+    "cost": 110000000,
+    "used": false,
+    "type": "research",
+    "receiver": "Higgs-bozon",
+    "property": "reputation",
+    "factor": 1.2,
+    "constant": 1
+  }
+]

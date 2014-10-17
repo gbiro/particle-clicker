@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PhD Diákok",
+    "description": "Olcsó és lelkes munkaerő, akik sok munkát megspórolnak Neked.",
+    "cost": 100,
+    "cost_increase": 1.5,
+    "rate": 1
+  },
+  {
+    "name": "Posztdoktorok",
+    "description": "Ezek a brilliáns elmék azért vannak itt, hogy kiszolgálják igényeidet.",
+    "cost": 2500,
+    "cost_increase": 1.45,
+    "rate": 10
+  },
+  {
+    "name": "Tudományos Munkatárs",
+    "description": "Sokat fizetsz nekik. Sokat is dolgoznak.",
+    "cost": 62500,
+    "cost_increase": 1.4,
+    "rate": 60
+  },
+  {
+    "name": "Tenure Professzor",
+    "description": "Végleges állása van és a saját kutatócsoportjával hatalmas munkát tud végezni.",
+    "cost": 1562500,
+    "cost_increase": 1.35,
+    "rate": 240
+  },
+  {
+    "name": "Nobel-díj nyertesek",
+    "description": "Okkal kapták a kitüntetésüket... Miért nem adsz nekik magasabb fizetést?",
+    "cost": 39062500,
+    "cost_increase": 1.3,
+    "rate": 720
+  },
+  {
+    "name": "Summer Students",
+    "description": "Egyszerűen fantasztikusak. A legjobb ötleteik két buli között jönnek.",
+    "cost": 976562500,
+    "cost_increase": 1.2,
+    "rate": 2160
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Cronin-effektus",
+    "description": "Még több hadron...!",
+    "reputation": 1,
+    "cost": 10,
+    "cost_increase": 1.2,
+    "image": "assets/icons/png/cronin.png",
+    "info": "html/cronin.html"
+  },
+  {
+    "name": "J/ψ",
+    "description": "A J/ψ mezon egy c és egy anti-c kvarkot tartalmaz.",
+    "reputation": 5,
+    "cost": 200,
+    "cost_increase": 1.45,
+    "image": "assets/icons/png/.png",
+    "info": "html/Jpsi.html"
+  },
+  {
+    "name": "Kvark-gluon plazma",
+    "description": "Vigyázz, forró!",
+    "reputation": 25,
+    "cost": 4000,
+    "cost_increase": 1.5,
+    "image": "assets/icons/png/QGP.png",
+    "info": "html/QGP.html"
+  },
+  {
+    "name": "Bottom kvark",
+    "description": "Harmadik generációs d-típusú kvark.",
+    "reputation": 100,
+    "cost": 80000,
+    "cost_increase": 1.55,
+    "image": "assets/icons/png/b.png",
+    "info": "html/b.html"
+  },
+  {
+    "name": "W- és Z bozon",
+    "description": "A gyenge kölcsönhatást közvetítő bozonok.",
+    "reputation": 200,
+    "cost": 1600000,
+    "cost_increase": 1.6,
+    "image": "assets/icons/png/weak.png",
+    "info": "html/weak.html"
+  },
+  {
+    "name": "Top kvark",
+    "description": "Harmadik generációs u-típusú kvark.",
+    "reputation": 400,
+    "cost": 32000000,
+    "cost_increase": 2,
+    "image": "assets/icons/png/t.png",
+    "info": "html/top.html"
+  },
+  {
+    "name": "Antihidrogén",
+    "description": "A legkönnyebb antiatom: egy antiprotont és egy pozitront tartalmaz.",
+    "reputation": 800,
+    "cost": 640000000,
+    "cost_increase": 2.1,
+    "image": "assets/icons/png/antihydrogen.png",
+    "info": "html/antihydrogen.html"
+  },
+  {
+    "name": "B oszcillációk",
+    "description": "Oszcilláló B mezonok.",
+    "reputation": 1600,
+    "cost": 1280000000,
+    "cost_increase": 2.2,
+    "image": "assets/icons/png/BBbar.png",
+    "info": "html/BBbar.html"
+  },
+  {
+    "name": "Higgs-bozon",
+    "description": "Spontán szimmetriasértés és Goldstone bozonok - ismerősen hangzik, ugye?",
+    "reputation": 3200,
+    "cost": 1280000000,
+    "cost_increase": 2.3,
+    "image": "assets/icons/png/H.png",
+    "info": "html/H.html"
+  }
+]
